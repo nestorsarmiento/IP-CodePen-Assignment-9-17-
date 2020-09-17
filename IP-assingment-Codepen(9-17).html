@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+<h1>Hey my Name is Nestor!</h1>
+<h3> What's your's?</h3>
+<input type="text">
+<h3>What phase(?) are you in?</h3>
+<select>
+  <option>Phase(?)</option>
+  <option>Elementary School</option>
+  <option>Middle School</option>
+  <option>High School</option>
+  <option>Adulthood</option>
+</select>
+<h3>Click the button for a meme</h3>
+    <button type="button" onclick="imageShow()">Click Here</button>
+<style>
+           #image{
+                display:none;
+      </style>
+<div>
+           <img src="https://integralatampost.s3.amazonaws.com/uploads/article/picture/21475/2020-03-24_12_082020-03-24_11_4720200325_Best-Online-School-Memes.jpg" id="image" alt="Meme Image" />
+      </div>
+       <script>
+             function imageShow(){
+                    document.getElementById('image').style.display = "block";
+                    }
+        </script>
+    </body>
+</html>
+
